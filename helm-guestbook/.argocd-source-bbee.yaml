@@ -1,6 +1,6 @@
 helm:
   parameters:
-  - name: image-0.image
+  - name: image.name
     value: gcr.io/heptio-images/ks-guestbook-demo
     forcestring: true
   - name: image.tag

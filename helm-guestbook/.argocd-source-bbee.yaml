@@ -3,6 +3,6 @@ helm:
   - name: image-0.image
     value: gcr.io/heptio-images/ks-guestbook-demo
     forcestring: true
-  - name: image-0.tag
+  - name: image.tag
     value: "0.2"
     forcestring: true

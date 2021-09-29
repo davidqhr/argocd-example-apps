@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image-0.image
+    value: gcr.io/heptio-images/ks-guestbook-demo
+    forcestring: true
+  - name: image-0.tag
+    value: "0.2"
+    forcestring: true
